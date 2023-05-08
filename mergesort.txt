@@ -1,0 +1,13 @@
+
+Merge Sort:
+
+[16,21,11,8,12,22] -> [16,21,11], [8,12,22] (dizi ikiye bölündü)
+[16,21,11] -> [16], [21,11] (sol dizi ikiye bölündü)
+[21,11] -> [21], [11] (sağ dizi ikiye bölündü)
+[16], [21] -> [16,21] (sol ve sağ dizi birleştirildi)
+[8,12,22] -> [8,12], [22] (sağ dizi ikiye bölündü)
+[8,12], [22] -> [8,12,22] (sol ve sağ dizi birleştirildi)
+[16,21], [8,12,22] -> [8,12,16,21,22] (sol ve sağ dizi birleştirildi)
+Not: Merge Sort'ta dizi önce ikiye bölünür, ardından her alt dizi sıralanır. Son olarak, sıralanmış alt diziler birleştirilir.
+
+Big-O gösterimi: O(n log n)
